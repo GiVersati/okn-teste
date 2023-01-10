@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: roboto;
+}
+
+:root {
+    --green: #00A39A;
+    --white: #ffffff;
+    --black: #000000;
+}
