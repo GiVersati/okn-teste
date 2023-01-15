@@ -31,6 +31,7 @@
     background-color: transparent;
     height: 3.8rem;
     width: 3.8rem;
+    cursor: pointer;
 }
 
 .social {
@@ -48,6 +49,11 @@
     align-items: center;
     justify-content: center;
     margin-right: .9rem;
+    transition: .3s all;
+}
+
+.social__icons:hover {
+    background-color: var(--green);
 }
 
 .social__link {
@@ -64,6 +70,7 @@
     align-items: center;
     line-height: 18rem;
     font-weight: 600;
+    transition: .3s all;
 }
 
 .nav__bottom {
@@ -84,4 +91,5 @@
     text-transform: uppercase;
     font-weight: 600;
     margin-right: 6.5rem;
+    transition: .3s all;
 }
